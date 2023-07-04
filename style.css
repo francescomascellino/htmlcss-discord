@@ -21,7 +21,14 @@ body {
     align-content: center;
 }
 
-a {
+li a,
+li a:visited,
+li a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a.btn-style {
     font-family: 'gg sans', sans-serif;
     background-color: white;
     color: black;
@@ -32,9 +39,9 @@ a {
     text-decoration: none;
 }
 
-a,
-a:active,
-a:visited {
+a.btn-style,
+a.btn-style:active,
+a.btn-style:visited {
     color: black;
 }
 
@@ -210,7 +217,9 @@ nav {
     margin: 1rem auto;
 }
 
-.hero-text a.open-discord {
+a.open-discord,
+a.open-discord:visited,
+a.open-discord:active {
     color: white;
     background-color: black
 }
