@@ -28,10 +28,6 @@ a:active {
     text-decoration: none;
 }
 
-p {
-    color: white;
-}
-
 h2 {
     margin-bottom: 1rem;
 }
@@ -49,13 +45,13 @@ img.reverse {
 /* STILE ANCHOR TAGS BOTTONE */
 
 a.btn-style {
-    font-family: 'gg sans', sans-serif;
+    font-family: 'Whitney', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
     background-color: white;
     color: black;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 0.3rem 0.5rem;
-    border-radius: 15px;
+    padding: 1rem 1.5rem;
+    border-radius: 30px;
     text-decoration: none;
 }
 
@@ -69,7 +65,7 @@ a.open-discord,
 a.open-discord:visited,
 a.open-discord:active {
     color: white;
-    background-color: black
+    background-color: black;
 }
 
 a.violet,
@@ -181,7 +177,7 @@ nav {
     align-items: center;
     justify-content: space-between;
     width: 70%;
-    padding: 0.5rem 0;
+    padding: 2rem 0;
     margin: 0 auto;
 }
 
@@ -195,10 +191,6 @@ li {
     list-style: none;
 }
 
-.btn-container {
-    text-align: end;
-}
-
 /* #endregion HEADER AND NAVBAR */
 
 /* #region HERO */
@@ -207,7 +199,8 @@ li {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 20rem;
     background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -216,18 +209,18 @@ li {
 .hero-text {
     text-align: center;
     color: white;
-    width: 50%;
+    width: 45%;
+
 }
 
 .hero-text h2 {
-    margin-bottom: 1rem;
-
+    margin-bottom: 3rem;
+    font-size: 3rem;
 }
 
 .hero-text p {
-    /* font-size: 0.5rem; */
-    /* line-height: 1rem; */
-    margin: 1rem auto;
+    margin: 3rem auto;
+    font-size: 1.5rem;
 }
 
 .fa-solid.fa-down-long {
@@ -271,8 +264,8 @@ section.grey {
     align-items: flex-start;
     justify-content: center;
 
-    /* QUESTO MARGINE ALLINEA IMMAGINE E PARAGRAFO DELLE COLONNE IN ALTO, MA A SECONDA DELLE DIMENSIONI DELLO SCHERMO L'EFFETTO VIENE PERSO */
-    /* margin: 2rem; */
+    /* QUESTO MARGINE ALLINEA IMMAGINE E PARAGRAFO DELLE COLONNE IN ALTO, MA A SECONDA DELLE DIMENSIONI DELLO SCHERMO L'EFFETTO VIENE PERSO A CAUSA DELLO SPAZIO TRASPARENTE NELLE IMMAGINI */
+    margin: 2rem;
 }
 
 .reverse {
@@ -288,6 +281,10 @@ section.grey {
     margin-top: 2rem;
 }
 
+.col-big p {
+    color: black;
+}
+
 .col-big img {
     width: 100%;
 }
@@ -297,15 +294,27 @@ section.grey {
 }
 
 .col-big.stars {
-    /* width: 100%; */
     justify-content: center;
     background-image: url(./img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
+    margin-bottom: 6rem;
 }
 
 .col-big.stars h3 {
-    margin-bottom: 1.5rem;
+    padding: 3rem 0;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
 }
 
 /* #endregion SECTIONS */
@@ -354,20 +363,17 @@ a.lang {
 
 footer h2 {
     color: rgb(114, 137, 218);
+    font-size: 2.5rem;
 }
 
 footer h3 {
     color: rgb(114, 137, 218);
+    font-size: 1rem;
+}
+
+footer a.violet {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
 }
 
 /* #endregion FOOTER */
-
-/* .lft-element {
-    width: 5rem;
-    height: 2.5rem;
-} */
-
-/* .rgt-element {
-    width: 5rem;
-    height: 2.5rem;
-} */
