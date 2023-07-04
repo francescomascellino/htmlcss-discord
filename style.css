@@ -175,11 +175,12 @@ input[value='Accedi'] {
     background: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    min-height: 200px;
 }
 
 .hero-text {
-    width: 300px;
-    height: 200px;
+    /* width: 300px;
+    height: 200px; */
 }
 
 /* #endregion HERO */
