@@ -160,16 +160,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-items: center;
     width: 70%;
     padding: 0.5rem 0;
-    margin: auto;
-
-}
-
-.logo img {
-    width: 4em;
-    scale: 1/1;
+    margin: 0 auto;
 }
 
 .menu {
@@ -299,18 +292,22 @@ footer {
     width: 20%;
 }
 
-.container.ftr {
+.row.ftr {
     width: 95%;
+    margin: 0 auto;
+    border-top: 1px solid rgb(114, 137, 218);
+    padding-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.lft-element {
-    width: 5rem;
-    height: 2.5rem;
+.container.ftr {
+    border-top: 1px solid rgb(114, 137, 218);
+
 }
 
-.rgt-element {
-    width: 5rem;
-    height: 2.5rem;
+footer h2 {
+    color: rgb(114, 137, 218);
 }
 
 h3 {
@@ -318,3 +315,13 @@ h3 {
 }
 
 /* #endregion FOOTER */
+
+/* .lft-element {
+    width: 5rem;
+    height: 2.5rem;
+} */
+
+/* .rgt-element {
+    width: 5rem;
+    height: 2.5rem;
+} */
