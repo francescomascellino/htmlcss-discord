@@ -1,0 +1,203 @@
+/* #region GLOBAL RULES */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1170px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    align-content: center;
+}
+
+/* #endregion GLOBAL RULES */
+
+/* #region DEBUG */
+
+.debug .container,
+.debug .col-60,
+.debug .col-40,
+.debug .col-20 {
+    border: 1px solid red;
+
+}
+
+.debug [class^='col-'],
+.debug .container {
+    min-height: 200px;
+}
+
+.debug section,
+.debug header,
+.debug nav,
+.debug footer,
+.debug .hero {
+    border: 1px dashed blueviolet;
+}
+
+.debug .hero-text {
+    border: 2px solid rgb(255, 47, 245);
+    background-color: aquamarine;
+}
+
+.debug .container {
+    background-color: darkred;
+}
+
+.debug .row {
+    background-color: teal;
+}
+
+.debug header {
+    background-color: rgb(100, 141, 33);
+}
+
+.debug nav {
+    background-color: rgba(0, 255, 42, 0.644);
+}
+
+.debug .logo,
+.debug .btn-container {
+    background-color: blue;
+}
+
+.debug .hero {
+    background-color: azure;
+}
+
+.debug section {
+    background-color: lightblue;
+}
+
+.debug .col-60 {
+    background-color: goldenrod;
+}
+
+.debug .col-40 {
+    background-color: gold;
+}
+
+.debug .card {
+    background-color: bisque;
+    height: 125px;
+    width: 175px;
+}
+
+.debug footer {
+    background-color: thistle;
+}
+
+.debug .col-20 {
+    background-color: darkorange;
+}
+
+.debug .lft-element {
+    background-color: darkblue;
+}
+
+.debug .rgt-element {
+    background-color: black;
+}
+
+/* #endregion DEBUG */
+
+/* #region HEADER AND NAVBAR */
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 3rem;
+    margin: auto;
+}
+
+.logo {
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.btn-container {
+    width: 5rem;
+    height: 2.5rem;
+}
+
+/* #endregion HEADER AND NAVBAR */
+
+/* #region HERO */
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.hero-text {
+    width: 300px;
+    height: 200px;
+}
+
+/* #endregion HERO */
+
+/* #region SECTIONS */
+
+.col-60 {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-40 {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.reverse {
+    flex-direction: row-reverse;
+}
+
+/* #endregion SECTIONS */
+
+/* #region FOOTER */
+
+footer {
+    background-color: thistle;
+    padding-bottom: 2rem;
+}
+
+.col-20 {
+    width: 20%;
+    background-color: darkorange;
+}
+
+.row.ftr {
+    align-items: center;
+    justify-content: space-between;
+    height: 3rem;
+}
+
+.lft-element {
+    background-color: darkblue;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+.rgt-element {
+    background-color: black;
+    width: 5rem;
+    height: 2.5rem;
+}
+
+/* #endregion FOOTER */
