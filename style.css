@@ -45,14 +45,8 @@ a.btn-style:visited {
     color: black;
 }
 
-p {
-    /* font-size: 0.5rem; */
-    /* line-height: 0.75rem; */
-}
-
 h2 {
     margin-bottom: 1rem;
-    line-height: 1.5rem;
 }
 
 /* #endregion GLOBAL RULES */
@@ -150,7 +144,6 @@ h2 {
 
 header {
     background-color: rgb(37, 94, 233);
-    /* border: 1px solid yellow; */
 }
 
 nav {
@@ -251,7 +244,7 @@ section {
 .col-60 {
     width: 60%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
@@ -262,21 +255,28 @@ section {
 .col-40 {
     width: 40%;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+
+    /* QUESTO MARGINE ALLINEA IMMAGINE E PARAGRAFO DELLE COLONNE IN ALTO, MA A SECONDA DELLE DIMENSIONI DELLO SCHERMO L'EFFETTO VIENE PERSO */
+    /* margin: 2rem; */
 }
 
 .reverse {
     flex-direction: row-reverse;
 }
 
-.row.flex-col {
+.col-big {
     flex-direction: column;
     text-align: center;
 }
 
-.row.flex-col h2 {
+.col-big h2 {
     margin-top: 2rem;
+}
+
+.col-big img {
+    width: 100%;
 }
 
 /* #endregion SECTIONS */
