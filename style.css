@@ -6,6 +6,10 @@
     padding: 0;
 }
 
+body {
+    font-family: 'gg sans', sans-serif;
+}
+
 .container {
     width: 80%;
     max-width: 1170px;
@@ -112,12 +116,14 @@
 
 header {
     background-color: rgb(37, 94, 233);
+    /* border: 1px solid yellow; */
 }
 
 nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    align-items: center;
     width: 80%;
     height: 3rem;
     margin: auto;
@@ -125,14 +131,36 @@ nav {
 }
 
 .logo img {
-    width: 5rem;
-    height: 2.5rem;
+    width: 4em;
+    scale: 1/1;
+}
+
+.menu {
+    display: flex;
+    width: 70%;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+    color: white;
+    font-size: 0.5rem;
+    font-weight: bold;
 }
 
 .btn-container {
-    width: 5rem;
-    height: 2.5rem;
     text-align: end;
+}
+
+input[value='Accedi'] {
+    font-family: 'gg sans', sans-serif;
+    background-color: white;
+    font-size: 0.5rem;
+    font-weight: 600;
+    padding: 0.3rem 0.5rem;
+    border-radius: 15px;
+    border: none;
+
 }
 
 /* #endregion HEADER AND NAVBAR */
