@@ -21,9 +21,9 @@ body {
     align-content: center;
 }
 
-li a,
-li a:visited,
-li a:active {
+a,
+a:visited,
+a:active {
     color: white;
     text-decoration: none;
 }
@@ -287,6 +287,22 @@ section.grey {
     width: 100%;
 }
 
+.flex-col {
+    justify-content: center;
+}
+
+.col-big.stars {
+    /* width: 100%; */
+    justify-content: center;
+    background-image: url(./img/stars.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.col-big.stars h3 {
+    margin-bottom: 1.5rem;
+}
+
 /* #endregion SECTIONS */
 
 /* #region FOOTER */
@@ -294,6 +310,14 @@ section.grey {
 footer {
     background-color: rgb(35, 39, 42);
     padding-bottom: 2rem;
+}
+
+footer a {
+    line-height: 1.5rem;
+}
+
+.fa-brands {
+    margin: 0 0.5rem;
 }
 
 .col-20 {
@@ -318,11 +342,9 @@ footer h2 {
     color: rgb(114, 137, 218);
 }
 
-h3 {
+footer h3 {
     color: rgb(114, 137, 218);
 }
-
-
 
 /* #endregion FOOTER */
 
