@@ -21,7 +21,7 @@
 
 /* #region DEBUG */
 
-.debug .container,
+/* .debug .container,
 .debug .col-60,
 .debug .col-40,
 .debug .col-20 {
@@ -104,11 +104,15 @@
 
 .debug .rgt-element {
     background-color: black;
-}
+} */
 
 /* #endregion DEBUG */
 
 /* #region HEADER AND NAVBAR */
+
+header {
+    background-color: rgb(37, 94, 233);
+}
 
 nav {
     display: flex;
@@ -117,9 +121,10 @@ nav {
     width: 80%;
     height: 3rem;
     margin: auto;
+
 }
 
-.logo {
+.logo img {
     width: 5rem;
     height: 2.5rem;
 }
@@ -127,6 +132,7 @@ nav {
 .btn-container {
     width: 5rem;
     height: 2.5rem;
+    text-align: end;
 }
 
 /* #endregion HEADER AND NAVBAR */
@@ -138,6 +144,9 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 2rem;
+    background: url(./img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .hero-text {
