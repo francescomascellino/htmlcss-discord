@@ -178,11 +178,8 @@ nav {
     justify-content: space-between;
 }
 
-.menu li {
+li {
     list-style: none;
-    color: white;
-    /* font-size: 0.5rem; */
-    font-weight: bold;
 }
 
 .btn-container {
@@ -294,6 +291,7 @@ section.grey {
 /* #region FOOTER */
 
 footer {
+    background-color: rgb(35, 39, 42);
     padding-bottom: 2rem;
 }
 
@@ -301,10 +299,8 @@ footer {
     width: 20%;
 }
 
-.row.ftr {
-    align-items: center;
-    justify-content: space-between;
-    height: 3rem;
+.container.ftr {
+    width: 95%;
 }
 
 .lft-element {
@@ -315,6 +311,10 @@ footer {
 .rgt-element {
     width: 5rem;
     height: 2.5rem;
+}
+
+h3 {
+    color: rgb(114, 137, 218);
 }
 
 /* #endregion FOOTER */
