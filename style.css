@@ -32,6 +32,16 @@ input[type='button'],
     border: none;
 }
 
+p {
+    font-size: 0.5rem;
+    line-height: 0.75rem;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
 /* #endregion GLOBAL RULES */
 
 /* #region DEBUG */
@@ -172,7 +182,7 @@ nav {
     align-items: center;
     justify-content: center;
     padding: 3rem;
-    background: url(./img/jumbo.png);
+    background-image: url(./img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -212,6 +222,11 @@ nav {
 
 /* #region SECTIONS */
 
+section {
+    background-image: url(./img/wave.svg);
+
+}
+
 .row {
     margin: 0 -2rem;
 }
@@ -238,12 +253,19 @@ nav {
     justify-content: center;
 }
 
-.col-40 .card p {
-    font-size: 0.5rem;
-}
-
 .reverse {
     flex-direction: row-reverse;
+}
+
+.row.flex-col {
+    flex-direction: column;
+    text-align: center;
+
+
+}
+
+.row.flex-col h2 {
+    margin-top: 2rem;
 }
 
 /* #endregion SECTIONS */
