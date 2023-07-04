@@ -33,7 +33,7 @@ h2 {
 }
 
 .wave img {
-    opacity: 0.1;
+    filter: invert(100%) sepia(33%) saturate(193%) hue-rotate(186deg) brightness(116%) contrast(93%);
     width: 100%;
     display: block;
 }
@@ -236,7 +236,7 @@ li {
 /* #region SECTIONS */
 
 section.grey {
-    background-color: rgb(229, 229, 229)
+    background-color: #f6f6f6
 }
 
 .row {
