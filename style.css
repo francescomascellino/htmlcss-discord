@@ -321,8 +321,13 @@ footer a {
     line-height: 1.5rem;
 }
 
-p.lang img {
+a.lang img {
     height: 1rem;
+}
+
+a.lang {
+    display: block;
+    margin-bottom: 0.5rem;
 }
 
 .fa-brands {
