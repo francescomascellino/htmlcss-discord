@@ -212,6 +212,14 @@ nav {
 
 /* #region SECTIONS */
 
+.row {
+    margin: 0 -2rem;
+}
+
+[class^='col-'] {
+    padding: 2rem;
+}
+
 .col-60 {
     width: 60%;
     display: flex;
