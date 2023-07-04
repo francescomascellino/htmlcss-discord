@@ -219,12 +219,19 @@ nav {
     justify-content: center;
 }
 
+.col-60 .card>img {
+    width: 100%;
+}
+
 .col-40 {
     width: 40%;
     display: flex;
     align-items: center;
     justify-content: center;
+}
 
+.col-40 .card p {
+    font-size: 0.5rem;
 }
 
 .reverse {
