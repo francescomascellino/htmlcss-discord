@@ -28,15 +28,8 @@ a:active {
     text-decoration: none;
 }
 
-a.btn-style {
-    font-family: 'gg sans', sans-serif;
-    background-color: white;
-    color: black;
-    font-size: 1rem;
-    font-weight: 600;
-    padding: 0.3rem 0.5rem;
-    border-radius: 15px;
-    text-decoration: none;
+p {
+    color: white;
 }
 
 h2 {
@@ -54,6 +47,18 @@ img.reverse {
 }
 
 /* STILE ANCHOR TAGS BOTTONE */
+
+a.btn-style {
+    font-family: 'gg sans', sans-serif;
+    background-color: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.3rem 0.5rem;
+    border-radius: 15px;
+    text-decoration: none;
+}
+
 a.btn-style,
 a.btn-style:active,
 a.btn-style:visited {
@@ -314,6 +319,10 @@ footer {
 
 footer a {
     line-height: 1.5rem;
+}
+
+p.lang img {
+    height: 1rem;
 }
 
 .fa-brands {
