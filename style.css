@@ -25,7 +25,7 @@ body {
 
 /* #region DEBUG */
 
-/* .debug .container,
+.debug .container,
 .debug .col-60,
 .debug .col-40,
 .debug .col-20 {
@@ -108,7 +108,7 @@ body {
 
 .debug .rgt-element {
     background-color: black;
-} */
+}
 
 /* #endregion DEBUG */
 
