@@ -32,13 +32,15 @@ h2 {
     margin-bottom: 1rem;
 }
 
-.wave img {
-    filter: invert(100%) sepia(33%) saturate(193%) hue-rotate(186deg) brightness(116%) contrast(93%);
-    width: 100%;
+.wave svg {
     display: block;
 }
 
-img.reverse {
+path {
+    fill: #f6f6f6;
+}
+
+svg.reverse {
     transform: rotate(180deg);
 }
 
