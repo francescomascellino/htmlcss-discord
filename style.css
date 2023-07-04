@@ -49,6 +49,16 @@ h2 {
     margin-bottom: 1rem;
 }
 
+.wave img {
+    opacity: 0.1;
+    width: 100%;
+    display: block;
+}
+
+img.reverse {
+    transform: rotate(180deg);
+}
+
 /* #endregion GLOBAL RULES */
 
 /* #region DEBUG */
@@ -229,8 +239,8 @@ a.open-discord:active {
 
 /* #region SECTIONS */
 
-section {
-    background-image: url(./img/wave.svg);
+section.grey {
+    background-color: rgb(229, 229, 229)
 }
 
 .row {
