@@ -21,7 +21,8 @@ body {
     align-content: center;
 }
 
-input[type='button'] {
+input[type='button'],
+.download {
     font-family: 'gg sans', sans-serif;
     background-color: white;
     font-size: 0.5rem;
@@ -193,12 +194,17 @@ nav {
     margin: 0.5rem auto;
 }
 
-input[class='download'] {
+.hero-text input[class='open-discord'] {
     color: white;
     background-color: black
 }
 
-.hero-text input[type='button'] {
+.fa-solid.fa-down-long {
+    margin: 0 0.25rem;
+}
+
+.hero-text input[type='button'],
+.opendiscord {
     margin: 0 0.25rem;
 }
 
