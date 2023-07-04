@@ -39,12 +39,6 @@ a.btn-style {
     text-decoration: none;
 }
 
-a.btn-style,
-a.btn-style:active,
-a.btn-style:visited {
-    color: black;
-}
-
 h2 {
     margin-bottom: 1rem;
 }
@@ -57,6 +51,27 @@ h2 {
 
 img.reverse {
     transform: rotate(180deg);
+}
+
+/* STILE ANCHOR TAGS BOTTONE */
+a.btn-style,
+a.btn-style:active,
+a.btn-style:visited {
+    color: black;
+}
+
+a.open-discord,
+a.open-discord:visited,
+a.open-discord:active {
+    color: white;
+    background-color: black
+}
+
+a.violet,
+a.violet:visited,
+a.violet:active {
+    color: white;
+    background-color: rgb(114, 137, 218);
 }
 
 /* #endregion GLOBAL RULES */
@@ -210,13 +225,6 @@ li {
     margin: 1rem auto;
 }
 
-a.open-discord,
-a.open-discord:visited,
-a.open-discord:active {
-    color: white;
-    background-color: black
-}
-
 .fa-solid.fa-down-long {
     margin: 0 0.5rem;
 }
@@ -313,6 +321,8 @@ footer h2 {
 h3 {
     color: rgb(114, 137, 218);
 }
+
+
 
 /* #endregion FOOTER */
 
