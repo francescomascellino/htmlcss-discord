@@ -29,8 +29,19 @@ a:active {
 }
 
 h2 {
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.5rem;
+}
+
+/* SVG */
 
 .wave svg {
     display: block;
@@ -245,6 +256,10 @@ section.grey {
     margin: 0 -2rem;
 }
 
+.reverse {
+    flex-direction: row-reverse;
+}
+
 [class^='col-'] {
     padding: 2rem;
 }
@@ -268,10 +283,6 @@ section.grey {
 
     /* QUESTO MARGINE ALLINEA IMMAGINE E PARAGRAFO DELLE COLONNE IN ALTO, MA A SECONDA DELLE DIMENSIONI DELLO SCHERMO L'EFFETTO VIENE PERSO A CAUSA DELLO SPAZIO TRASPARENTE NELLE IMMAGINI */
     margin: 2rem;
-}
-
-.reverse {
-    flex-direction: row-reverse;
 }
 
 .col-big {
@@ -307,18 +318,6 @@ section.grey {
     margin: 0 0 3rem;
 }
 
-h2 {
-    font-size: 3rem;
-}
-
-h3 {
-    font-size: 2rem;
-}
-
-p {
-    font-size: 1.5rem;
-}
-
 /* #endregion SECTIONS */
 
 /* #region FOOTER */
@@ -328,25 +327,8 @@ footer {
     padding-bottom: 2rem;
 }
 
-footer a {
-    line-height: 1.5rem;
-}
-
-a.lang img {
-    height: 1rem;
-}
-
-a.lang {
-    display: block;
-    margin-bottom: 0.5rem;
-}
-
-.fa-brands {
-    margin: 0 0.5rem;
-}
-
-.col-20 {
-    width: 20%;
+.container.ftr {
+    border-top: 1px solid rgb(114, 137, 218);
 }
 
 .row.ftr {
@@ -358,9 +340,8 @@ a.lang {
     justify-content: space-between;
 }
 
-.container.ftr {
-    border-top: 1px solid rgb(114, 137, 218);
-
+.col-20 {
+    width: 20%;
 }
 
 footer h2 {
@@ -373,9 +354,26 @@ footer h3 {
     font-size: 1rem;
 }
 
+footer a {
+    line-height: 1.5rem;
+}
+
+a.lang {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
 footer a.violet {
     font-size: 1rem;
     padding: 0.5rem 1rem;
+}
+
+a.lang img {
+    height: 1rem;
+}
+
+.fa-brands {
+    margin: 0 0.5rem;
 }
 
 /* #endregion FOOTER */
